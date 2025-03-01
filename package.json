@@ -12,6 +12,7 @@
   "dependencies": {
     "@astrojs/mdx": "^4.1.0",
     "@astrojs/react": "^4.2.1",
+    "@radix-ui/react-slot": "^1.1.2",
     "@tailwindcss/vite": "^4.0.3",
     "@types/canvas-confetti": "^1.9.0",
     "@types/react": "^19.0.10",
