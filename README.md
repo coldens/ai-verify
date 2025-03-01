@@ -1,13 +1,51 @@
-# Astro with Tailwind
+# AIVerify: Identificación de Imágenes AI vs. Humanos (Frontend)
+
+Este repositorio contiene el **frontend** del proyecto universitario **AIVerify**, cuyo objetivo es identificar si una imagen ha sido generada por inteligencia artificial o por humanos.
+
+Este proyecto ya viene configurado y listo para usar. Se utiliza **Astro** junto con **Tailwind CSS** para ofrecer una interfaz moderna, responsiva y fácil de usar.
+
+---
+
+## Uso del Proyecto
+
+### Desarrollo
+
+Para iniciar el entorno de desarrollo, ejecuta:
 
 ```sh
-pnpm create astro@latest -- --template with-tailwindcss
+pnpm dev
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/with-tailwindcss)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/with-tailwindcss)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/with-tailwindcss/devcontainer.json)
+Esto levantará el servidor de desarrollo y podrás ver la aplicación en tu navegador (normalmente en [http://localhost:3000](http://localhost:3000)).
 
-Astro comes with [Tailwind](https://tailwindcss.com) support out of the box. This example showcases how to style your Astro project with Tailwind.
+### Compilación y Despliegue
 
-For complete setup instructions, please see our [Tailwind Integration Guide](https://docs.astro.build/en/guides/integrations-guide/tailwind).
+Para compilar el proyecto para producción, ejecuta:
+
+```sh
+pnpm build
+```
+
+Luego, puedes utilizar:
+
+```sh
+pnpm preview
+```
+
+para previsualizar la compilación en un entorno similar al de producción.
+
+---
+
+## Características del Proyecto
+
+- **Identificación de Imágenes:** Permite a los usuarios subir imágenes para determinar si han sido generadas por IA o por humanos.
+- **Interfaz Intuitiva:** Diseñada con Astro y Tailwind para una experiencia de usuario fluida y moderna.
+- **Proyecto Universitario:** Desarrollado en el marco de un proyecto académico para explorar la intersección entre inteligencia artificial y análisis visual.
+
+---
+
+## Autores
+
+- **José González**
+- **Marta Guzmán**
+- **Izzi de la Hoz Estrada**
