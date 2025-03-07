@@ -68,7 +68,7 @@ export function ImageAIDetection() {
     <div className="container mx-auto py-10 px-4">
       <Card className="max-w-2xl mx-auto">
         <CardHeader>
-          <CardTitle className="text-2xl">AI Image Detector</CardTitle>
+          <CardTitle className="text-2xl">REAL-IA</CardTitle>
           <CardDescription>
             Sube una imagen para verificar si fue generada por IA o creada por un humano
           </CardDescription>
